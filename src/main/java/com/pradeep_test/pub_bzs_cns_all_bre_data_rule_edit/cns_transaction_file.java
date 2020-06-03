@@ -6,12 +6,25 @@ package com.pradeep_test.pub_bzs_cns_all_bre_data_rule_edit;
 
 public class cns_transaction_file implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public cns_transaction_file() {
-    }
+	@org.kie.api.definition.type.Description(value = "panelist id field to hold panelist id or samidnum")
+	@org.kie.api.definition.type.Label(value = "panelist_id")
+	private java.lang.Long panelist_id;
 
+	public cns_transaction_file() {
+	}
 
+	public java.lang.Long getPanelist_id() {
+		return this.panelist_id;
+	}
 
+	public void setPanelist_id(java.lang.Long panelist_id) {
+		this.panelist_id = panelist_id;
+	}
+
+	public cns_transaction_file(java.lang.Long panelist_id) {
+		this.panelist_id = panelist_id;
+	}
 
 }
