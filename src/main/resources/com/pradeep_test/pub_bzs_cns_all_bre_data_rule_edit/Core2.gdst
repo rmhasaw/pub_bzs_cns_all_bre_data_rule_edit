@@ -45,7 +45,7 @@
           <factField>npd_attr_6</factField>
           <fieldType>Long</fieldType>
           <operator>==</operator>
-          <valueList>1235003362, 1235003363, 1235003364,1235003365,1235003366</valueList>
+          <valueList>1235003362=bzs_c_whomade(Boys),1235003363=bzs_c_whomade(Girls), 1235003364=bzs_c_whomade(Infants),1235003365(bzs_c_whomade(Men),1235003366=bzs_c_whomade(Women)</valueList>
           <parameters/>
           <binding></binding>
         </condition-column52>
