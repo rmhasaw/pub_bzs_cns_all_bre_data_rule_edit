@@ -1,4 +1,4 @@
-package com.Pradeep-test.pub_bzs_cns_all_bre_data_rule_edit;
+package com.pradeep_test.pub_bzs_cns_all_bre_data_rule_edit;
 
 import java.math.*;
 import java.lang.Object;
