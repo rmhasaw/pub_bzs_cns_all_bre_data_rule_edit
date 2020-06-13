@@ -13,9 +13,6 @@ public class cns_transaction_file implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "npd_attr_06")
-	private java.lang.String npd_attr_06;
-
 	public cns_transaction_file() {
 	}
 
@@ -6177,14 +6174,6 @@ public class cns_transaction_file implements java.io.Serializable {
 
 	public void assign_multi_choice_codes_114() {
 		Collections.copy(multi_choice_codes_114, multi_choice_codes_98);
-	}
-
-	public java.lang.String getNpd_attr_06() {
-		return this.npd_attr_06;
-	}
-
-	public void setNpd_attr_06(java.lang.String npd_attr_06) {
-		this.npd_attr_06 = npd_attr_06;
 	}
 
 }
