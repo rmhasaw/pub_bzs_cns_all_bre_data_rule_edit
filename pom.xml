@@ -46,11 +46,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>readalphas</groupId>
-      <artifactId>readalphas</artifactId>
-      <version>1</version>
-    </dependency>
-    <dependency>
       <groupId>read_ods_codes</groupId>
       <artifactId>read_ods_codes</artifactId>
       <version>101</version>
