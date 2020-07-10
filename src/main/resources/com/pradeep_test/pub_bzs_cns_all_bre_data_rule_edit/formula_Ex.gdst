@@ -55,7 +55,23 @@
       <entryPointName></entryPointName>
     </Pattern52>
   </conditionPatterns>
-  <actionCols/>
+  <actionCols>
+    <insert-fact-column52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>npd attr 10</header>
+      <factType>cns_transaction_file</factType>
+      <boundName>outputs</boundName>
+      <factField>npd_attr_10</factField>
+      <type>Long</type>
+      <isInsertLogical>false</isInsertLogical>
+    </insert-fact-column52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
