@@ -47,7 +47,7 @@
     </dependency>
     <dependency>
       <groupId>readalphas</groupId>
-      <artifactId>1</artifactId>
+      <artifactId>readalphas</artifactId>
       <version>1</version>
     </dependency>
   </dependencies>
