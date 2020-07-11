@@ -53,7 +53,7 @@
     <dependency>
       <groupId>read_ods_alphas</groupId>
       <artifactId>read_ods_alphas</artifactId>
-      <version>401</version>
+      <version>301</version>
     </dependency>
   </dependencies>
   <build>
