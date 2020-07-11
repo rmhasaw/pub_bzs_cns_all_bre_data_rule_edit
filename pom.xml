@@ -46,11 +46,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>read_ods_codes</groupId>
-      <artifactId>read_ods_codes</artifactId>
-      <version>101</version>
-    </dependency>
-    <dependency>
       <groupId>file_handling</groupId>
       <artifactId>file_handling</artifactId>
       <version>20</version>
