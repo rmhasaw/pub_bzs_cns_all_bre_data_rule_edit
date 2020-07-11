@@ -51,9 +51,9 @@
       <version>20</version>
     </dependency>
     <dependency>
-      <groupId>read_ods_alphas</groupId>
-      <artifactId>read_ods_alphas</artifactId>
-      <version>401</version>
+      <groupId>jbpm_refresh_alphas</groupId>
+      <artifactId>jbpm_refresh_alphas</artifactId>
+      <version>1001</version>
     </dependency>
   </dependencies>
   <build>
