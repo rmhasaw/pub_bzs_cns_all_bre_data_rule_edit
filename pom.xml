@@ -46,11 +46,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>file_handling</groupId>
-      <artifactId>file_handling</artifactId>
-      <version>20</version>
-    </dependency>
-    <dependency>
       <groupId>jbpm_refresh_alphas</groupId>
       <artifactId>jbpm_refresh_alphas</artifactId>
       <version>1001</version>
