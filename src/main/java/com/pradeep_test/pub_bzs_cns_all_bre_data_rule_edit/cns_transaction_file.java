@@ -15,6 +15,8 @@ public class cns_transaction_file implements java.io.Serializable {
     public cns_transaction_file() {
     }
 
+    private	long panelist_attr_0;
+    private	long panelist_attr_1;
 
     private	String business;
     private	String data_source;
@@ -6322,6 +6324,21 @@ public class cns_transaction_file implements java.io.Serializable {
        public void assign_multi_choice_codes_114()
     {
         Collections.copy(multi_choice_codes_114,multi_choice_codes_98);
+    }
+        public long getPanelist_attr_0() {
+        return panelist_attr_0;
+    }
+
+    public void setPanelist_attr_0(long panelist_attr_0) {
+        this.panelist_attr_0 = panelist_attr_0;
+    }
+    
+        public long getPanelist_attr_1() {
+            return panelist_attr_1;
+        }
+    
+        public void setPanelist_attr_1(long panelist_attr_1) {
+            this.panelist_attr_0 = panelist_attr_1;
     }
 
 }
