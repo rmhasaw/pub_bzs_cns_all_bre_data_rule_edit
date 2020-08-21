@@ -2,22 +2,65 @@
   <tableName>test_resolved_hit_policy</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>50</width>
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>150</width>
   </descriptionCol>
   <metadataCols>
     <metadata-column52>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>221</width>
       <metadata>ResolvedHitPriorityOverRow</metadata>
     </metadata-column52>
   </metadataCols>
   <attributeCols/>
-  <conditionPatterns/>
-  <actionCols/>
+  <conditionPatterns>
+    <Pattern52>
+      <factType>cns_transaction_file</factType>
+      <boundName>data</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>NUMERIC_LONG</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>173</width>
+          <header>extendedn_npd_attr_0 ==</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>extended_npd_attr_0</factField>
+          <fieldType>Long</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
+  </conditionPatterns>
+  <actionCols>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>167</width>
+      <header>set npd_attr_0</header>
+      <boundName>data</boundName>
+      <factField>npd_attr_0</factField>
+      <type>Long</type>
+      <update>false</update>
+    </set-field-col52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -51,5 +94,156 @@
   <packageName>com.pradeep_test.pub_bzs_cns_all_bre_data_rule_edit</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>RESOLVED_HIT</hitPolicy>
-  <data/>
+  <data>
+    <list>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>case1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>0</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">100</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">100</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>case2</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">200</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">200</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>case3</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">300</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">300</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>case4</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">400</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">400</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>case5</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">500</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">500</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+  </data>
 </decision-table52>
