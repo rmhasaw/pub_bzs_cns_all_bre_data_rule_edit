@@ -50,6 +50,11 @@
       <artifactId>jbpm_refresh_alphas</artifactId>
       <version>1001</version>
     </dependency>
+    <dependency>
+      <groupId>alpha_enums</groupId>
+      <artifactId>alpha_enums</artifactId>
+      <version>1004</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
